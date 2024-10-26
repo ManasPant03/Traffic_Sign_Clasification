@@ -4,7 +4,6 @@ from tkinter import *
 from PIL import ImageTk, Image
 
 import numpy
-#load the trained model to classify sign
 import tensorflow as tf
 model = tf.keras.models.load_model("my_model.h5")
 
